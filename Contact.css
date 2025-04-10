@@ -1,41 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تواصل معنا | Mindspark</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <section class="contact-section">
-    <div class="container">
-      <h2>تواصل معنا</h2>
-      <p class="contact-intro">نسعد بتواصلك معنا لأي استفسار، اقتراح، أو تعاون.</p>
-      <form class="contact-form">
-        <input type="text" name="name" placeholder="الاسم الكامل" required />
-        <input type="email" name="email" placeholder="البريد الإلكتروني" required />
-        <textarea name="message" placeholder="اكتب رسالتك هنا" rows="5" required></textarea>
-        <button type="submit">إرسال</button>
-      </form>
-
-      <div class="contact-info">
-        <p>📧 البريد الإلكتروني: <a href="mailto:info@mindspark.sa">info@mindspark.sa</a></p>
-        <p>📱 إنستقرام: <a href="https://instagram.com/mindspark.sa" target="_blank">@mindspark.sa</a></p>
-        <p>💬 واتساب: <a href="https://wa.me/966500000000" target="_blank">+966 50 000 0000</a></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- الفوتر العام -->
-  <footer>
-    <div class="footer-links">
-      <a href="/">الرئيسية</a>
-      <a href="/products">المنتجات</a>
-      <a href="/about">من نحن</a>
-      <a href="/contact">تواصل معنا</a>
-    </div>
-    <p>© 2025 Mindspark. جميع الحقوق محفوظة.</p>
-  </footer>
-</body>
-</html>
